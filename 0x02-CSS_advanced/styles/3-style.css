@@ -1,32 +1,24 @@
-:root {
-	--color-primary: #d73953;
-	--color-black: #090909;
-	--color-white: #ffffff;
-	--color-light-grey: #f3f3f3;
-	--color-dark-grey: #353535;
-	--text-color: var(--color-black)
+html{
+    scroll-behavior: smooth;
 }
 
-html {
-	scroll-behavior: smooth;
+:root{
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
+body, a{
+    color: var(--text-color);
 }
 
-body {
-	color: var(--color-primary);
+.visually-hidden{
+    display: none;
 }
 
-a {
-	color: #161616;
+.card-category, .section-tagline{
+    color: var(--color-primary);
 }
 
-.visually-hidden {
-	display: hidden;
-}
-
-.card-category {
-	color: var(--color-primary);
-}
-
-.section-tagline {
-	color: var(--color-primary);
-}
